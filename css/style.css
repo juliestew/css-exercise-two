@@ -1,6 +1,23 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #F1F5FD;
+  color: #593826;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
+}
+p.author {
+  font-size: 20px;
+  line-height: 2;
+}
+
+p {
+  line-height: 1.4;
 }
 
 nav {
@@ -41,6 +58,12 @@ li {
   float: right;
   padding: 30px;
 }
+a {
+  text-decoration: none;
+}
+
+a:hover { color:#0070BC; }
+a:active { color:#FFFFFF; }
 
 article {
   padding-top: 100px;
